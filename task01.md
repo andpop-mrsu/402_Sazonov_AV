@@ -42,7 +42,7 @@ andrey    | 2020.09.03 16:54
 
 
 * * *
-#### Темы для изучения
+### Темы для изучения
 * Система управления версиями Git.
     * <https://git-scm.com/book/ru/v2/> S.Chacon, B. Straub "Pro Git". Электронная книга про Git (перевод на русский язык).
     * <https://learn.javascript.ru/screencast/git> Скринкаст Ильи Кантора по Git.
