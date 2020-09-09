@@ -40,6 +40,18 @@ andrey    | 2020.09.03 16:54
 * Задание будет считаться принятым после закрытия Pull Request в https://github.com/andpop-mrsu.
 * После принятия задания преподавателем синхронизировать с оригинальным свой локальный репозиторий (`git pull upstream master`), потом репозиторий в своем профиле GitHub (`git push origin master`).
 
+
 * * *
-#### Полезные ссылки
-* <https://youtu.be/pUT3mx1ZRUМ> "Pull request в опенсорс" от Hexlet. Инструкция по работе с Pull Request для добавления своего кода в open-source проекты (наша процедура отчетности организована точно по такой же схеме).   
+#### Темы для изучения
+* Система управления версиями Git.
+    * <https://git-scm.com/book/ru/v2/> S.Chacon, B. Straub "Pro Git". Электронная книга про Git (перевод на русский язык).
+    * <https://learn.javascript.ru/screencast/git> Скринкаст Ильи Кантора по Git.
+* Веб-сервис GitHub для хостинга IT-проектов и их совместной разработки
+    * <https://youtu.be/pUT3mx1ZRUМ> "Pull request в опенсорс" от Hexlet. Инструкция по работе с Pull Request для добавления своего кода в open-source проекты (наша процедура отчетности организована точно по такой же схеме).   
+* Встраиваемая СУБД SQLite.
+    * <https://www.sqlite.org/docs.html> Документация на официальном сайте SQLite.
+    * J.A. Kreibich "Using SQLite". Издательство O'Reilly, 2010 год.
+    * G. Allen, M. Owens "The Definitive Guide to SQLite", second edition. Издательство Apres, 2010 год.
+* Язык разметки Markdown.
+    * <https://guides.hexlet.io/markdown/> Описание основных возможностей.
+    * <https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf> Шпаргалка (cheatsheet).
