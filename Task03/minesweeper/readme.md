@@ -43,4 +43,4 @@
  5. Запустить файл minesweeper.bat.
 * * *
 ### Ссылки
-Packagist: 
+Packagist: https://packagist.org/packages/sazonov_da/minesweeper
