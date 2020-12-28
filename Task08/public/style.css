@@ -1,0 +1,187 @@
+body {
+    color: #DDDDDD;
+    font-family: courier new;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #807777;
+}
+.cell {
+	background: url(./images/square.png);
+	background-size: 25px 25px;
+	width: 25px;
+	height: 25px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid grey;
+}
+
+
+.gameButton {
+	background: url(./images/default.png);
+	background-size: 44px 44px;
+	width: 48px;
+	height: 48px;
+}
+
+
+.button {
+	width: 200px;
+    background-color:  azure;
+    font-size: 18px;
+    border-radius: 15px;
+    align-self: center;
+	outline: none;
+	margin-top: 20px;
+}
+
+
+.lost {
+	background: url(./images/dead.png);
+	background-size: 44px 44px;
+}
+
+
+.gameButton:active{
+	background: url(./images/pushed.png);
+	background-size: 44px 44px;
+}
+
+
+.flag {
+	background: url(./images/flag.png);
+	background-size: 25px 25px;
+}
+
+
+.bomb {
+	background: url(./images/bomb.png);
+	background-size: 25px 25px;
+}
+
+
+.boom {
+	background: url(./images/bombexplode.png);
+	background-size: 25px 25px;
+}
+
+
+.defused {
+	background: url(./images/bombdefused.png);
+	background-size: 25px 25px;
+}
+
+
+.won {
+	background: url(./images/won.png);
+	background-size: 44px 44px;
+}
+
+
+.number {
+	background: lightgrey;
+	border: 1px solid grey;
+	font-family: Consolas, sans-serif;
+	color: red;
+	font-weight: bold;
+	margin: 5px;
+	text-align: center;
+}
+
+
+.empty {
+	background: lightgrey;
+	border: 1px solid grey;
+}
+
+
+.hidden {
+	display: none;
+}
+
+
+.replayMode {
+	pointer-events: none;
+}
+
+
+table {
+	background-color: rgb(65, 62, 62);
+	border: 1px solid grey;
+	border-spacing: 0px;
+}
+
+
+td, th {
+	margin: 3px;
+	padding: 3px;
+	border: 1px solid grey;
+}
+
+.init-form {
+	display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.input-field {
+    width: 100%;
+}
+
+.input-field input {
+    width: 150px;
+    border-radius: 15px;
+    background-color: azure;
+    outline: none;
+    padding-left: 5px;
+    font-size: 14px;
+  }
+
+  .input-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .show-error {
+    display: none;
+    align-self: center;
+    color: rgb(128, 12, 12);
+    border-radius: 15px;
+    font-size: 18px;
+    border: 1px solid  #DDDDDD;
+    margin-top: 20px;
+  }
+
+  .game {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+  }
+
+  #playingField {
+	display: none;
+  }
+
+  .header {
+	text-align: center;
+  }
+
+  #finishGame {
+	display: none;
+  }
+
+  #initForm {
+	display: block;
+  }
+
+  #startGame {
+	display: block;
+  }
+
+  .button-panel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }

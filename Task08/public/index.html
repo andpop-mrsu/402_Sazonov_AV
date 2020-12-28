@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Сапер</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<script src="https://unpkg.com/idb@5/build/iife/index-min.js"></script>
+</head>
+<body>
+	<h1>Minesweeper</h1>
+	<div class="init-form" id="initForm">
+		<span class="input-field">
+			<label>Имя игрока</label>
+			<input type="text" id=nameUser>
+		</span>
+		<span class="input-field">
+			<label>Размерность поля</label>
+			<input type="number" id=fieldDimension>
+		</span>
+		<span class="input-field">
+			<label>Количество мин</label>
+			<input type="number" id=numberOfMines>
+		</span>
+		<div class="show-error" id="show-error">Все поля должны быть заполнены!</div>
+	</div>
+	<div class="button-panel">
+		<button class="button" id="startGame">Начать игру</button>
+		<button class="button" id="finishGame">Завершить игру</button>
+		<button class="button" id="showGames">Список игр</button>
+		<button class="button" id="showReplay">Показать игру</button>
+	</div>
+	<div class="game" id="playingField">
+		<div id = 'header' class='hidden'></div>
+		<div id = 'game' class='game hidden'>
+			<input type = 'button' class='gameButton' id = 'gameButton'>
+			<table id = "gameField"></table>
+		</div>
+		<br />
+		<div id = 'info' class='hidden'>
+			<table id = "gameInfo"></table>
+		</div>
+		<script type="module" src="index.js"></script>
+	</div>
+</body>
+</html>
