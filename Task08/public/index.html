@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="UTF-8">
+	<title>Minesweeper</title>
+	<link rel="stylesheet" href="src/style.css">
+	<script src="https://unpkg.com/idb@5/build/iife/index-min.js"></script>
+</head>
+<body>
+	<h2>Minesweeper</h2>
+	<div class="init-form" id="initForm">
+		<span class="input-field">
+			<label>Player name
+			</label>
+			<input type="text" id=nameUser>
+		</span>
+		<span class="input-field">
+			<label>The dimension field
+			</label>
+			<input type="number" id=fieldDimension>
+		</span>
+		<span class="input-field">
+			<label>Number of mines
+			</label>
+			<input type="number" id=numberOfMines>
+		</span>
+		<div class="show-error" id="show-error">All fields must be filled in!</div>
+	</div>
+	<div class="button-panel">
+		<button class="button" id="startGame">Start the game
+		</button>
+		<button class="button" id="finishGame">Finish the game
+		</button>
+		<button class="button" id="showGames">List of games
+		</button>
+		<button class="button" id="showReplay">Show the game
+		</button>
+	</div>
+	<div class="game" id="playingField">
+		<div id = 'header' class='hidden'>
+		</div>
+		<div id = 'game' class='game hidden'>
+			<input type = 'button' class='gameButton' id = 'gameButton'>
+			<table id = "gameField">
+			</table>
+		</div>
+		<br>
+		<div id = 'info' class='hidden'>
+			<table id = "gameInfo">
+			</table>
+		</div>
+		<script type="module" src="src/index.js">
+		</script>
+	</div>
+</body>
+</html>
