@@ -6,7 +6,7 @@
 ### Требования к оформлению и коду
 * Работать нужно в ветке Task02 Git-репозитория.
 * Класс из л/р 1 с добавленными тестами поместить в каталог Task02_1 (файл src/Test.php больше не нужен).
-* PHPUnit установить локально в проект (`composer require phpunit/phpunit`). Для прогона тестов из каталога tests запускается так: `./vendor/bin/phpunit tests`
+* PHPUnit установить локально в проект (`composer require phpunit/phpunit`). Прогон тестов из каталога tests: `./vendor/bin/phpunit --color tests`
 
 - - -
 
@@ -36,6 +36,8 @@ Id: 5
 
 ### Требования к оформлению и коду
 * Работать нужно в ветке Task02 Git-репозитория.
+* Класс с добавленными тестами поместить в каталог Task02_2.
+* PHPUnit установить локально в проект (`composer require phpunit/phpunit`). Прогон тестов из каталога tests: `./vendor/bin/phpunit --color tests`
 * Требования к оформления PHP-кода приведены в файле [PHP_instruction.md](PHP_instruction.md)
 
 - - -
