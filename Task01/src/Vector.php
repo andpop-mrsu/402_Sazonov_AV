@@ -53,7 +53,8 @@ class Vector
         $newY = $this->CordY * $vector->CordY;
         $newZ = $this->CordZ * $vector->CordZ;
 
-        return $newX + $newY + $newZ;
+        $scalar = $newX + $newY + $newZ;
+        return $scalar;
     }
 
     public function vectorProduct(Vector $vector): Vector
