@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+$autoloadPathForGithub = __DIR__ . '/../vendor/autoload.php';
+
+if (file_exists($autoloadPathForGithub)) {
+	require_once($autoloadPathForGithub);
+}
+
+use function App\Test\runTest;
+
+runTest();
+?>
