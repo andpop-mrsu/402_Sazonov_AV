@@ -11,7 +11,7 @@ class Vector
     public function __construct($x, $y, $z)
     {
         if (!(is_numeric($x) && is_numeric($y) && is_numeric($z))) {
-            echo "Ошибка! Недопустимые значения!";
+            echo "Ошибка! Значения данного вектора недопустимы!";
             exit();
         }
 
@@ -65,8 +65,7 @@ class Vector
         return new Vector($newX, $newY, $newZ);
     }
 
-    public function __toString(): string
-    {
+    public function __toString(): string{
         return "(" . $this->x . ";" . $this->y . ";" . $this->z . ")";
     }
 }
