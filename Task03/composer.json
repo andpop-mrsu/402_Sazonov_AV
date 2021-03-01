@@ -1,0 +1,26 @@
+{
+    "name": "sazonovda/task03",
+    "authors": [
+        {
+            "name": "Sazonov Dmitry Alexandrovich",
+            "email": "sazonovdimka2020@yandex.ru"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": [
+                "src/Queue",
+                "src/Stack"
+            ]
+        },
+        "files": [
+            "src/CompareStrings.php"
+        ]
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
