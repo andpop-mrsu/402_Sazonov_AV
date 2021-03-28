@@ -1,0 +1,22 @@
+{
+    "name": "sazonovda/task05_2",
+    "description": "task05_2",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sazonov Dmitry Alexandrovich",
+            "email": "sazonovdimka2020@yandex.ru"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
